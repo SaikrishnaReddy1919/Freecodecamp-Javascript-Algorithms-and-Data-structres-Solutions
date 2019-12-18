@@ -1,0 +1,11 @@
+/* Alter code below this line */
+class Vegetable{
+    constructor(str){
+        this.name = str;
+    }
+}
+
+/* Alter code above this line */
+
+const carrot = new Vegetable('carrot');
+console.log(carrot.name); // => should be 'carrot'
